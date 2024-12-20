@@ -1,0 +1,15 @@
+{
+  "name": "ssg",
+  "type": "module",
+  "scripts": {
+    "build": "tsx ./src/index.ts"
+  },
+  "dependencies": {
+    "app": "*",
+    "hono": "4.6.14"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2"
+  }
+}
